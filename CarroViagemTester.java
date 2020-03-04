@@ -13,7 +13,7 @@ public class CarroTester {
 		
 		Viagem rjsp = new Viagem();
 		rjsp.codigo = 1;
-		rjsp.descricao = "Rio de Janeiro - S„o Paulo";
+		rjsp.descricao = "Rio de Janeiro - S√£o Paulo";
 		rjsp.duracao = 320;
 		rjsp.km = 500;
 		
@@ -24,7 +24,7 @@ public class CarroTester {
 		civic.andar();
 		if (rjsp.confirmada) {
 			civic.km += rjsp.km;
-			System.out.println("Este " +civic.modelo +" " +civic.marca +" estar· com " +civic.km +" quilÙmetros rodados apÛs esta viagem " +rjsp.descricao);
+			System.out.println("Este " +civic.modelo +" " +civic.marca +" estar√° com " +civic.km +" quil√¥metros rodados ap√≥s esta viagem " +rjsp.descricao);
 		}
 	}
 

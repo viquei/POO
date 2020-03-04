@@ -1,6 +1,6 @@
 package poo0303;
 
-public class CarroTester {
+public class CarroViagemTester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
